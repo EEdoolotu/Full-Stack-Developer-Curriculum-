@@ -60,3 +60,43 @@
     </footer>
   </body>
 </html>
+
+#my lab project
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset = "utf-8">
+    <title>Garlic Butter Shrimp 🦐</title>
+  </head>
+  <body>
+    <main>
+      <img src = "https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt = "The Recipe">
+      <h1>Garlic Butter Shrimp 🦐</h1>
+      <p>This is my grandma's recipe for Gralic Butter Shrimp.</p>
+      <section>
+        <h2>Ingredients</h2>
+        <ul>
+          <li>500g shrimp (peeled & deveined)</li>
+          <li>3 tbsp butter</li>
+          <li>4 garlic cloves (minced)</li>
+          <li>1 tbsp lemon juice</li>
+          <li>Salt & pepper</li>
+          <li>Fresh parsley (optional)</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Instructions</h2>
+        <ol>
+          <li>Melt butter in a pan over medium heat.</li>
+          <li>Add garlic and sauté until fragrant (about 30 seconds).</li>
+          <li>Toss in shrimp, season with salt & pepper, and cook 2–3 minutes per side until pink.</li>
+          <li>Drizzle lemon juice, stir well, and remove from heat.</li>
+          <li>Garnish with parsley and serve hot with rice, pasta, or bread.</li>
+        </ol>
+        <h3>⏱️ Total time: 10 minutes</h3>
+      </section>
+    </main>
+
+
+  </body>
+</html>
