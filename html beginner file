@@ -119,11 +119,11 @@
     </ul>
     <h2>Top Itineraries</h2>
     <figure>
-      <a href ="https://www.freecodecamp.org/learn" target ="_blank"><img href ="https://www.freecodecamp.org/learn" target ="_blank" src ="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt ="my labs"></a>
+      <a href ="https://www.freecodecamp.org/learn" target ="_blank"><img src ="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt ="my labs"></a>
       <figcaption>Fig1</figcaption>
     </figure>
     <figure>
-      <a href ="https://www.freecodecamp.org/learn" target ="_blank"><img href ="https://www.freecodecamp.org/learn" target ="_blank" src ="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt ="my 2nd labs"></a>
+      <a href ="https://www.freecodecamp.org/learn" target ="_blank"><img  src ="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt ="my 2nd labs"></a>
       <figcaption>Fig2</figcaption>
     </figure>
     <figure>
@@ -131,5 +131,44 @@
       <figcaption>Fig3</figcaption>
     </figure>
   </body>
+
+</html>
+<-- video compilation -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+    
+
+</head>
+
+<body>
+    <main>
+        <h1>My Video Compilation Page</h1>
+    <p>This is my video compilation page. pls enjoy</p>
+    <section>
+        <h2>First video</h2>
+        <p>This is the first video</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iX_s1cv6q4o?si=WtRjDwLScFSV9DWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </section>
+    <section>
+        <h2>2nd video</h2>
+        <p>This is the second video</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nmhX3_m84Is?si=yl8xcZ95djmAvlYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </section>
+    <section>
+        <h2>third video</h2>
+        <p>This is the 3rd video</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rbuMAFy0D_k?si=40cYmLIOjgyB_CVh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </section>
+
+    </main>
+
+</body>
 
 </html>
