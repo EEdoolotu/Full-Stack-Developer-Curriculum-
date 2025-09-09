@@ -100,3 +100,36 @@
 
   </body>
 </html>
+#Travel Agency Page
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <meta charset = "utf-8">
+    <meta name="description" content ="This is a badass Travel Agency page">
+    <title>Travel Agency Page</title>
+  </head>
+  <body>
+    <h1>Greece Travel</h1>
+    <p>You can travel to greece for free</p>
+    <h2>Packages</h2>
+    <p>This is the section for the badass agency </p>
+    <ul>
+      <li><a href ="https://www.freecodecamp.org/learn" target ="_blank">Group Travels</a></li>
+      <li><a href ="https://www.freecodecamp.org/learn" target ="_blank">Private Tours</a></li>
+    </ul>
+    <h2>Top Itineraries</h2>
+    <figure>
+      <a href ="https://www.freecodecamp.org/learn" target ="_blank"><img href ="https://www.freecodecamp.org/learn" target ="_blank" src ="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt ="my labs"></a>
+      <figcaption>Fig1</figcaption>
+    </figure>
+    <figure>
+      <a href ="https://www.freecodecamp.org/learn" target ="_blank"><img href ="https://www.freecodecamp.org/learn" target ="_blank" src ="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt ="my 2nd labs"></a>
+      <figcaption>Fig2</figcaption>
+    </figure>
+    <figure>
+      <a href ="https://www.freecodecamp.org/learn" target ="_blank"><img src ="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg"  alt ="my 2nd labs"></a>
+      <figcaption>Fig3</figcaption>
+    </figure>
+  </body>
+
+</html>
