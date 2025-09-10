@@ -532,3 +532,69 @@ survey Form
     </table>
   </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>The Clockmaker’s Secret
+</td>
+        <td>Helena Marlowe</td>
+        <td>Historical Mystery</td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td>Ashes of Tomorrow
+</td>
+        <td>David R. Callahan</td>
+        <td>Literary Fiction</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Whispers Beneath the Pines
+</td>
+        <td>Aisha Rahman</td>
+        <td>Literary Fiction</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Quantum Shadows
+</td>
+        <td>Marcus Leong</td>
+        <td>Science Fiction</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td>The Forgotten Harp
+</td>
+        <td>Clara Villanova</td>
+        <td>Historical Romance</td>
+        <td>2015</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
