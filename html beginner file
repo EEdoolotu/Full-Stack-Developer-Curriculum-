@@ -428,3 +428,46 @@
     </main>
   </body>
 </html>
+survey Form
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a badass survey form</p>
+
+    <form id="survey-form">
+      <label id="name-label" for="name">Name</label>
+      <input required id="name" type="text" placeholder="Name" />
+
+      <label id="number-label" for="number">Number</label>
+      <input required id="number" type="number" placeholder="Number" min="0" max="100" />
+
+      <label id="email-label" for="email">Email</label>
+      <input required id="email" type="email" placeholder="Email" />
+
+      <label for="dropdown">Choose an option</label>
+      <select id="dropdown">
+        <option>Option 1</option>
+        <option>Option 2</option>
+      </select>
+
+      <p>Pick one:</p>
+      <input type="radio" name="radio" value="33" /> Option A
+      <input type="radio" name="radio" value="34" /> Option B
+
+      <p>Pick as many as you want:</p>
+      <input type="checkbox" value="46" /> Choice 1
+      <input type="checkbox" value="50" /> Choice 2
+
+      <p>Comments:</p>
+      <textarea></textarea>
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
