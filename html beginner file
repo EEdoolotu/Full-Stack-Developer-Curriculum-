@@ -297,3 +297,30 @@
 </body>
 
 </html>
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Movie Review</title>
+ </head>
+
+<body>
+    <main>
+        <h1>DUNE</h1>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/rise-beyond-2.png" alt="it is dune picture">
+        <p>It is the famous badass dune movie</p>
+        <p>The <strong>Movie Rating</strong> <span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span>(9/10)</p>
+
+        <h2>Cast Members</h2>
+        <ul>
+            <li><strong>Timothy Chalamet</strong> as Paul Atreides</li>
+            <li><strong>Oscar Isaac</strong> as Duke Leto Atreides</li>
+            <li><strong>Rebecca Ferguson</strong> as Paul's mother</li>
+        </ul>
+    </main>
+
+</body>
+
+</html>
