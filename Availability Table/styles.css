@@ -1,0 +1,87 @@
+:root {
+  /* Colors for availability 0–5 */
+  --color0: #f44336;
+  --color1: #ff9800;
+  --color2: #ffc107;
+  --color3: #ffeb3b;
+  --color4: #8bc34a;
+  --color5: #4caf50;
+
+  /* Borders */
+  --solid-border: 2px solid rgba(0,0,0,0.35);
+  --dashed-border: 2px dashed rgba(0,0,0,0.35);
+}
+
+/* General layout */
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  padding: 1.25rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 0.65rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+th {
+  background: #f4f4f4;
+}
+
+/* First column (time values) */
+th.time {
+  background: #eee;
+  font-weight: bold;
+}
+
+/* Availability backgrounds */
+.available-0 { background-color: var(--color0); }
+.available-1 { background-color: var(--color1); }
+.available-2 { background-color: var(--color2); }
+.available-3 { background-color: var(--color3); }
+.available-4 { background-color: var(--color4); }
+.available-5 { background-color: var(--color5); }
+
+/* Required border rules */
+tr.sharp td {
+  border-bottom: var(--solid-border);
+}
+tr.half td {
+  border-bottom: var(--dashed-border);
+}
+.half td {
+  border-bottom: var(--dashed-border);
+
+}
+.sharp td {
+  border-bottom: var(--solid-border);
+
+}
+
+/* Legend */
+#legend {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+#legend span {
+  font-weight: 600;
+}
+#legend-gradient {
+  width: 260px;
+  height: 16px;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  background-image: linear-gradient(
+    to right,
+    var(--color0) 16%,
+    var(--color1) 16% 33%,
+    var(--color2) 33% 50%,
+    var(--color3) 50% 66%,
+    var(--color4) 66% 83%,
+    var(--color5) 83% 100%
+  );
+}
