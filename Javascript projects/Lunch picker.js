@@ -1,50 +1,55 @@
-let lunches = [];
+const questions = [
+  {category: "urology",
+  question: "How many kidneys do humans have?",
+  choices: ["three", "six", "two"],
+  answer: "two"}, 
+  { 
+  category: "cardiology",
+  question: "What is the main function of the heart?",
+  choices: ["pump blood", "digest food", "filter toxins"],
+  answer: "pump blood"
+},
 
-function getRandomItem(arraise) {
-  let index = Math.floor(Math.random() * arraise.length)
-  return arr[index];
+{ 
+  category: "neurology",
+  question: "Which part of the brain controls balance and coordination?",
+  choices: ["cerebellum", "frontal lobe", "hippocampus"],
+  answer: "cerebellum"
+},
+
+{ 
+  category: "orthopedics",
+  question: "Which is the largest bone in the human body?",
+  choices: ["femur", "tibia", "humerus"],
+  answer: "femur"
+},
+
+{ 
+  category: "dermatology",
+  question: "What is the outermost layer of the skin called?",
+  choices: ["dermis", "epidermis", "hypodermis"],
+  answer: "epidermis"
 }
 
-function addLunchToEnd(arr, string) {
-  arr.push(string)
-  console.log(`${string} added to the end of the lunch menu.`)
-  return arr;
+]
+
+function getRandomQuestion(questions) {
+  const randomIndex = Math.floor(Math.random() * questions.length)
+  const chosenQuestion = questions[randomIndex];
+  return chosenQuestion;
 }
-function addLunchToStart (arr, string) {
-  arr.unshift(string)
-  console.log(`${string} added to the start of the lunch menu.`)
-  return arr;
+
+function getRandomComputerChoice(arr) {
+  const randomChoice = Math.floor(Math.random() * arr.length)
+  const chosenChoice = arr[randomChoice];
+  return chosenChoice;
+
 }
-function removeLastLunch (arr) {
-  if (arr.length === 0){
-    console.log("No lunches to remove.")
+
+function getResults(chosenQuestion, c_choice) {
+  if (c_choice === chosenQuestion.answer) {
+    return "The computer's choice is correct!";
   } else {
-    console.log(`${arr.pop()} removed from the end of the lunch menu.`)
-  }
-  return arr;
-}
-function removeFirstLunch (arr) {
-  const newlunch = arr.shift();
-  if (arr.length === 0){
-    console.log("No lunches to remove.")
-  } else { console.log(`${newlunch} removed from the start of the lunch menu.`)
-  }
-  return arr;
-}
-function getRandomLunch  (arr) {
-  const randomIndex = Math.floor(Math.random() * arr.length)
-  if (arr.length === 0){
-    console.log("No lunches available.")
-  }else {
-    console.log(`Randomly selected lunch: ${arr[randomIndex]}`)
+    return `The computer's choice is wrong. The correct answer is: ${chosenQuestion.answer}`
   }
 }
-function showLunchMenu  (arr) {
-  if (arr.length !== 0){
-    console.log(`Menu items: ${arr.join(", ")}`)
-  } else {
-    console.log("The menu is empty.")
-  }
-}
-
-console.log(getRandomLunch(["Pizza", "Burger", "Fries", "Salad"]))
