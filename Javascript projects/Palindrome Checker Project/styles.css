@@ -1,0 +1,28 @@
+#main {
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+body {
+  background-color: #151B54;
+  color: white;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+#input-box {
+  background-color: white;
+  color: black;
+  padding: 50px;
+}
+
+.label {
+  
+}
+
